@@ -1,0 +1,86 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul,li{
+	list-style: none;
+}
+div{
+	display: block;
+	}
+.box{
+	width: 1200px;
+	height: 383px;
+	border: 1px solid red;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+	}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+	}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+	}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	/*display:none;*/
+	opacity: 0;
+	}
+#left{
+	left: 30px;
+	}
+#right{
+	right: 30px;
+	}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+	}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 100%;
+	}
+.nav .active{
+	background: red;
+	}
+.x{
+	width: 1280px;
+	height: 18px;
+	position: relative;
+	background: url('images/a15.png') no-repeat 140px center;
+	background-color: #CCCCCC;
+	overflow: hidden;
+}
+.x1{
+	width: 1700px;
+	overflow: hidden;
+	margin-left: 160px;
+	position: absolute;
+}
+.x2{
+	color: #FF0000;
+	margin-left: 500px;
+	font-size:10px;
+	width: 500px;
+}
